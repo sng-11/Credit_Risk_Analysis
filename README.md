@@ -12,6 +12,8 @@ ___Naive Random Oversampling___
 <img width="583" alt="Screen Shot 2021-10-24 at 4 10 08 PM" src="https://user-images.githubusercontent.com/84816495/138611012-f06a982b-8163-414e-be11-c2634b889eb9.png">
 <img width="803" alt="Screen Shot 2021-10-24 at 4 10 29 PM" src="https://user-images.githubusercontent.com/84816495/138611029-56531110-e388-4aee-9648-50759f4bfbd0.png">
 
+As seen from above, the balanced accuracy score is 65.5% for this model.
+The 
 
 ___Oversampling with SMOTE___
 
@@ -26,3 +28,7 @@ ___Balanced Random Forest Classifier___
 
 
 ___Easy Ensemble AdaBoost Classifier___
+
+## Summary
+
+Overall, in assessing credit risk, we want to ensure that we detect everyone that is high-risk, even if there will be false positives, than incorrectly characterizing a loan application to be low-risk. This means that high sensitivity for the high-risk assessment is more important than precision in the detection process.
