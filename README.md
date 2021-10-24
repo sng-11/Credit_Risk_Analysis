@@ -9,6 +9,9 @@ Six machine learning models were used in this analysis, with an evaluation of ea
 
 ___Naive Random Oversampling___
 
+<img width="583" alt="Screen Shot 2021-10-24 at 4 10 08 PM" src="https://user-images.githubusercontent.com/84816495/138611012-f06a982b-8163-414e-be11-c2634b889eb9.png">
+<img width="803" alt="Screen Shot 2021-10-24 at 4 10 29 PM" src="https://user-images.githubusercontent.com/84816495/138611029-56531110-e388-4aee-9648-50759f4bfbd0.png">
+
 
 ___Oversampling with SMOTE___
 
