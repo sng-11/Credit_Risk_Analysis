@@ -13,9 +13,10 @@ ___Naive Random Oversampling___
 <img width="803" alt="Screen Shot 2021-10-24 at 4 10 29 PM" src="https://user-images.githubusercontent.com/84816495/138611029-56531110-e388-4aee-9648-50759f4bfbd0.png">
 
 As seen from above, the balanced accuracy score is 65.5% for this model.
-The 
+For high_risk, the precision is only 1% while the sensitivity (recall) is 70%. The F1 score is therefore 0.02. For low risk, the precision is 100% while the sensitivity (recall) is 61%. The F1 score is therefore 0.76.
 
 ___Oversampling with SMOTE___
+
 
 
 ___Undersampling with Cluster Centroids___
