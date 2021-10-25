@@ -1,7 +1,7 @@
 # Credit Risk Analysis
 
 ## Overview of the Project
-Assessing credit risk is an important endeavour conducted by orgnaizations before issuing loans to their applicants. The applicant must be evaluated over many different criteria to ensure that they have the ability to pay back the loan in the future. Because of the huge amount of data involved in this process, it is useful to use machine learning models to learn from pre-existing data and develop algorithms that can be applied to future loan applications. As such, this project uses a variety of models from the imbalanced-learn and scikit-learn libraries to conduct resampling and assess credit risk.
+Assessing credit risk is an important endeavour conducted by organizations before issuing loans to their applicants. The applicant must be evaluated over many different criteria to ensure that they have the ability to pay back the loan in the future. Because of the huge amount of data involved in this process, it is useful to use machine learning models to learn from pre-existing data and develop algorithms that can be applied to future loan applications. As such, this project uses a variety of models from the imbalanced-learn and scikit-learn libraries to conduct resampling and assess credit risk.
 
 ## Results
 
@@ -39,6 +39,12 @@ For high_risk, the precision is only 1% while the sensitivity (recall) is 69%. T
 
 ### ___Combination Sampling using SMOTEENN___
 
+<img width="451" alt="Screen Shot 2021-10-24 at 10 21 00 PM" src="https://user-images.githubusercontent.com/84816495/138625194-57302cb0-140b-47d3-b821-21df1a88e9b7.png">
+<img width="716" alt="Screen Shot 2021-10-24 at 10 21 18 PM" src="https://user-images.githubusercontent.com/84816495/138625216-ca8ae14c-b99d-486d-b095-32e4fbaedebc.png">
+
+As seen from above, the balanced accuracy score is 64.5% for this model.
+For high_risk, the precision is only 1% while the sensitivity (recall) is 72%. The F1 score is therefore 0.02. For low_risk, the precision is 100% while the sensitivity (recall) is 57%. The F1 score is therefore 0.73.
+
 
 ### ___Balanced Random Forest Classifier___
 
@@ -49,7 +55,15 @@ As seen from above, the balanced accuracy score is 78.9% for this model.
 For high_risk, the precision is only 3% while the sensitivity (recall) is 70%. The F1 score is therefore 0.06. For low_risk, the precision is 100% while the sensitivity (recall) is 87%. The F1 score is therefore 0.93. 
 According to the this model, the important features include total_rec_prncp and total_pymnt. 
 
+
 ### ___Easy Ensemble AdaBoost Classifier___
+
+<img width="371" alt="Screen Shot 2021-10-24 at 10 17 27 PM" src="https://user-images.githubusercontent.com/84816495/138624898-e1db0275-67be-4db5-877d-957c5432ec23.png">
+<img width="713" alt="Screen Shot 2021-10-24 at 10 17 43 PM" src="https://user-images.githubusercontent.com/84816495/138624919-f854399a-3367-480d-b6b3-20c69f9866bb.png">
+
+As seen from above, the balanced accuracy score is high for this model, at 93.2%.
+For high_risk, the precision is 9% while the sensitivity (recall) is 92%. The F1 score is therefore 0.16. For low_risk, the precision is 100% while the sensitivity (recall) is 57%. The F1 score is therefore 0.73. 
+
 
 ## Summary
 
