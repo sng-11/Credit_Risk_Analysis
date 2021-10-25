@@ -24,7 +24,7 @@ For high_risk, the precision is only 1% while the sensitivity (recall) is 70%. T
 
 
 As seen from above, the balanced accuracy score is 66.2% for this model.
-For high_risk, the precision is 9% while the sensitivity (recall) is 63%. The F1 score is therefore 0.16. For low_risk, the precision is 100% while the sensitivity (recall) is 69%. The F1 score is therefore 0.82.
+For high_risk, the precision is only 1% while the sensitivity (recall) is 63%. The F1 score is therefore 0.02. For low_risk, the precision is 100% while the sensitivity (recall) is 69%. The F1 score is therefore 0.82.
 
 
 ### ___Undersampling with Cluster Centroids___
@@ -42,6 +42,12 @@ For high_risk, the precision is only 1% while the sensitivity (recall) is 69%. T
 
 ### ___Balanced Random Forest Classifier___
 
+<img width="366" alt="Screen Shot 2021-10-24 at 10 13 55 PM" src="https://user-images.githubusercontent.com/84816495/138624615-54bb1d58-894a-4c05-a8c2-93ffdfb225a4.png">
+<img width="707" alt="Screen Shot 2021-10-24 at 10 14 09 PM" src="https://user-images.githubusercontent.com/84816495/138624636-0c2f4024-173e-4f79-b379-64d8e649ea49.png">
+
+As seen from above, the balanced accuracy score is 78.9% for this model.
+For high_risk, the precision is only 3% while the sensitivity (recall) is 70%. The F1 score is therefore 0.06. For low_risk, the precision is 100% while the sensitivity (recall) is 87%. The F1 score is therefore 0.93. 
+According to the this model, the important features include total_rec_prncp and total_pymnt. 
 
 ### ___Easy Ensemble AdaBoost Classifier___
 
